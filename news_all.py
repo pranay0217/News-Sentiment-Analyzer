@@ -23,7 +23,7 @@ labels = ['negative', 'neutral', 'positive']
 # =======================
 # ✅ Initialize Finnhub Client (for price info)
 # =======================
-API_KEY = 'd1g258pr01qk4ao0inggd1g258pr01qk4ao0inh0'
+API_KEY = ''
 fb_client = fb.Client(api_key=API_KEY)
 
 # =======================
@@ -126,4 +126,5 @@ for i, pred in enumerate(predictions):
     print(f"{color}Sentiment: {predicted_label.upper()} {emoji} (Confidence: {confidence:.2f}){RESET}")
     print(f"{color}{expectation}{RESET}")
     print("=" * 70)
+
 
