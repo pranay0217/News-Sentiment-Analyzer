@@ -24,7 +24,7 @@ labels = ['negative', 'neutral', 'positive']
 # =======================
 # ✅ Initialize Finnhub API
 # =======================
-API_KEY = 'd1g258pr01qk4ao0inggd1g258pr01qk4ao0inh0'
+API_KEY = ''
 fb_client = fb.Client(api_key=API_KEY)
 
 # =======================
@@ -138,3 +138,4 @@ print(f"\n📊 Overall Market Sentiment for {st_name.upper()}:")
 print(f"Positive: {counts['positive']} | Neutral: {counts['neutral']} | Negative: {counts['negative']}")
 print(f"🎯 Final Sentiment: {overall.upper()}")
 print("#" * 80)
+
